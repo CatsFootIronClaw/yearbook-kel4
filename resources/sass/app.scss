@@ -1,11 +1,11 @@
-// // Fonts
-// @import url('https://fonts.bunny.net/css?family=Nunito');
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
 
-// // Variables
-// @import 'variables';
+// Variables
+@import 'variables';
 
-// // Bootstrap
-// @import 'bootstrap/scss/bootstrap';
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
 
 .notification-tab>.active {
     @apply text-blue-500 border-b-blue-500 hover:text-blue-500;

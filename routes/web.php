@@ -22,14 +22,22 @@ Route::middleware(['guest'])->group(function () {
 });
 
 Route::get('/home', function () {
-    return redirect('/');
+    return view('yearbook.index');
 });
 
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::middleware(['auth'])->group(function () {
-    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('/', function () {return view('welcome');});
     Route::get('/logout', [AuthController::class, 'logout']);
 
+});
+
+Route::get('/', function () {
+    return view('yearbook.index');
+});
+
+Route::get('/sambutan', function () {
+    return view('sambutan.index');
 });
 
 
