@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('organisasi', function (Blueprint $table) {
             $table->integer('id_sekolah');
+            $table->string('nama_organisasi', 60)->nullable(false);
+            $table->text('foto_organisasi')->nullable(false);
 
             $table->foreign('id_sekolah')
                 ->references('id_sekolah')->on('sekolah')

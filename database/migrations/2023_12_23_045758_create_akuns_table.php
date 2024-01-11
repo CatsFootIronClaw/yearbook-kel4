@@ -18,7 +18,7 @@ return new class extends Migration
             $table->integer('id_sekolah');
             $table->string('email', 60)->nullable(false);
             $table->string('username', 60)->nullable(false);
-            $table->string('password', 30)->nullable(false);
+            $table->string('password', 255)->nullable(false);
             $table->enum('role', ['superadmin', 'admin'])->nullable(false);
 
             $table->foreign('id_sekolah')
