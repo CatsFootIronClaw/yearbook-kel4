@@ -38,28 +38,96 @@
                 ">
                 <div
                     style="
-                        background-image: url('{{ asset('gambar/Bingkai (1).png') }}');
                         background-repeat: no-repeat;
-                        height:200px;
-                        width: 300px;
                         border: 1px solid black;
-                        padding: 12px
+                        padding: 12px;
+                        display: flex;
+                        width: 50%;
                     ">
-                    
+                    <img src=" {{ asset('gambar/pak_kepsek.png') }}" alt="" class="w-48 h-48">
+                    <div
+                        style="
+                        background-repeat: no-repeat;
+                        border: 1px solid black;
+                        padding: 12px;
+                        width: 50px;
+                        height: 20px;
+                ">
 
+                    </div>
                 </div>
+
+
+
+
+
                 <div
                     style="
                         max-width: 50%;
                         border: 1px solid black;
                         padding: 12px;
                         text-align: right;
+                        color: #4C2215;
+                        font-size: 20px;
                     ">
                     <h2>Kepala Sekolah</h2>
-                    <p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make”</p>
+                    <p class="">“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                        a galley of type and scrambled it to make”</p>
+                    <p>Dr. Ir Raihanda Ndra M. Pd</p>
+                </div>
+            </div>
+            <div
+                style="
+                    min-height:100px;
+                    width: 100%;
+                    border: 1px solid black;
+                    padding: 12px;
+                    display: flex;
+                    justify-content:space-between;
+                ">
+                <div
+                    style="
+                        background-repeat: no-repeat;
+                        border: 1px solid black;
+                        padding: 12px;
+                        display: flex;
+                        width: 50%
+                    ">
+                    <img src=" {{ asset('gambar/pak_kepsek.png') }}" alt="" class="w-48 h-48">
+                    <div
+                            style="
+                        background-repeat: no-repeat;
+                        border: 1px solid black;
+                        padding: 12px;
+                        width: 50px;
+                        height: 20px;
+                ">
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div
+                    style="
+                        max-width: 50%;
+                        border: 1px solid black;
+                        padding: 12px;
+                        text-align: right;
+                        color: #4C2215;
+                        font-size: 20px;
+                    ">
+                    <h2>Kepala Sekolah</h2>
+                    <p class="">“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                        a galley of type and scrambled it to make”</p>
                     <p>Dr. Ir Raihanda Ndra M. Pd</p>
                 </div>
             </div>
         </div>
+
     </section>
 @endsection
