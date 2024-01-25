@@ -12,7 +12,7 @@
     <title>@yield('title')</title>
 </head>
 
-<body style="font-family: 'VT323', monospace; margin-bottom: 80px;" class="bg-">
+<body style="font-family: 'VT323', monospace;" class="bg-">
     <nav class="w-full flex justify-center py-10 fixed min-w-full px-20" >
         <ul class="flex gap-10 bg-black text-white px-4  py-1 text-2xl">
             <li>Home</li>
