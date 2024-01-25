@@ -15,8 +15,17 @@
             ">
            <img src="{{ asset('gambar/smk1.png')}}" alt="">
         </div>
-        <div>
-          
+        <div
+            style="
+                background-image: url('{{ asset('gambar/layered-steps-haikei (18).png') }}');
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 100%;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+            " class="px">
+            <h1>SAMBUTAN KEPALA SEKOLAH</h1>
         </div>
     </section>
 @endsection
